@@ -1,35 +1,33 @@
 export const projects = [
   {
     title: "GYM Body Builder",
-    subtitle: "Tailwind",
-    description:
-      "This Project was mainly build with Tailwind CSS.",
+    subtitle: "Tailwind and HTML",
+    description: "This Project was mainly build with Tailwind CSS.",
     image: "./project-1.gif",
-    link: "",
+    link: "https://blessja.github.io/gym1/",
   },
   {
-    title: "Task Tracker",
-    subtitle: "React",
+    title: "Social Media App front-end",
+    subtitle: "React and Bootstrap 5",
     description:
-      "The project is to track the tasks that needs to be completed",
-    image: "./project-2.gif",
-    link: "",
+      "The project focuses on the front-end of social media app UI components",
+    image: "./mern-front-end.gif",
+    link: "https://mern-front-seven.vercel.app/",
   },
   {
-    title: "Todo app",
-    subtitle: "React and Node.js",
+    title: "Social Media App ",
+    subtitle: "Mern Stack Framework",
     description:
-     "A basic todo web application to keep all todo's",
-    image: "./project-3.gif",
-    link: "",
+      "Social media app, with features to post a comment, like comment and comments. ",
+    image: "./mern.gif",
+    link: "https://mern-social-five.vercel.app/login",
   },
   {
     title: "Progress bar",
     subtitle: "HTML, CSS & JAVASCRIPT",
-    description:
-      "This is a pure vanilla html, css & javascript project.",
+    description: "This is a pure vanilla html, css & javascript project.",
     image: "./project-4.gif",
-    link: "",
+    link: "https://blessja.github.io/Progress-steps/",
   },
 ];
 
