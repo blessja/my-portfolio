@@ -15,16 +15,16 @@ const About = () => {
             in web development. My main purpose is to produce the best quality
             results required by the clients.
           </p>
-          <div className="flex justify-center">
+          <div className="flex flex-col sm:flex-row justify-center items-center sm:items-stretch space-y-4 sm:space-y-0 sm:space-x-4">
             <a
               href="#contact"
-              className="inline-flex text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+              className="w-full sm:w-auto inline-flex justify-center text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg whitespace-nowrap"
             >
               Work With Me
             </a>
             <a
               href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              className="w-full sm:w-auto inline-flex justify-center text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg whitespace-nowrap"
             >
               See My Past Work
             </a>
@@ -32,7 +32,7 @@ const About = () => {
               href="/Blessing_Jackon_-_Full_Stack_Web_Developer.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              className="w-full sm:w-auto inline-flex justify-center text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg whitespace-nowrap"
             >
               Check out my CV
             </a>
